@@ -1,0 +1,56 @@
+TODO!:
+  Wir wollen machen DMS:
+
+  Was brauchen wir?:
+    ☐ Startseite mit @Login -> Link für Reg drunter
+    ☐ Regestrierungseite als Gast
+    ---------
+
+    ☐ Hauptseite mit Tabelle der Dokumenten?  http://www.appelsiini.net/projects/jeditable/default.html || http://www.datatables.net/
+    ☐ Filetree? 
+    ---------
+    ☐ FileUpload
+    ☐ Umbennung nach Tags? 
+      ☐ https://github.com/aehlke/tag-it/blob/master/README.markdown
+    ☐ Uploadbeschränken 
+      ☐ (Größe (filesize($file)) ,
+      ☐ Datentyp is in Datenbank )
+
+    //Per Drag and Drop?
+    ☐ JQuery-Plugin
+    ☐ Anzeige von Text-Dokumenten in Overlay-Fenster
+    -----------
+    Just Ideas:
+      ☐ Notenübersicht mit Durchschnitt etc. Button um dem K.O LEK zu schicken oder so...
+      ☐ Kaffetimer mit dem schicken ButtonProgressSlider
+
+Datenbank:
+  Tabellen: @Benni
+    ☐ user -> id , username, vorname, nachname, email, password (md5)
+    ☐ dokumete -> id , name, filetype(FK), tags(FK), owner, rechte? später
+    ☐ filetypes -> id, name
+    ☐ tags -> id, name
+    ✔ Experimentelle integration @done (14-09-10 15:35)
+  
+  Was für Dokumente oder auch mehr: 
+
+    ☐ doc
+    ☐ txt
+    ☐ pdf
+    ☐ html
+    ☐ css
+    ☐ php
+
+Struktur root:
+
+  ☐ htdocs
+    ☐ css
+    ☐ js
+    ☐ files
+      ☐ userXY --> Fileupload kommt hier rein
+        ☐ UnterordnerXY
+    ☐ index.php
+
+
+Fileupload -> "Abgrenzungsrechnung Muster.png" -> Gucke ob bekannte der Dateiname bekannte Tags beinhaltet -> Schlage die in einem Input Text per Autocomplete oder anders vor
+

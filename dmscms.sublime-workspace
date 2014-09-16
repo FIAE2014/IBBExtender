@@ -1,0 +1,1424 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"my",
+				"mysql_"
+			],
+			[
+				"mysqli_fe",
+				"mysqli_fetch_array"
+			],
+			[
+				"spie",
+				"spielerarray"
+			],
+			[
+				"spil",
+				"spielerarray"
+			],
+			[
+				"spiler",
+				"spieler"
+			],
+			[
+				"le",
+				"levenshtein"
+			],
+			[
+				"mysq",
+				"mysql_error"
+			],
+			[
+				"mysql",
+				"mysql_close"
+			],
+			[
+				"mysql_s",
+				"mysql_select_db"
+			],
+			[
+				"mysql_c",
+				"mysqli_connect"
+			],
+			[
+				"met",
+				"method	Attr"
+			],
+			[
+				"mysql_r",
+				"mysql_rows_affected"
+			],
+			[
+				"row",
+				"mssql_rows_affected"
+			],
+			[
+				"mysql_",
+				"mysql_connect"
+			],
+			[
+				"for",
+				"for	for …"
+			],
+			[
+				"trf",
+				"trf-rz	transform: rotateZ(${1:angle});"
+			],
+			[
+				"tr",
+				"trf-sky	transform: skewY(${1:angle});"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"b",
+				"bottom"
+			],
+			[
+				"fi",
+				"fixed"
+			],
+			[
+				"ani",
+				"anim-	animation: ${1:name} ${2:duration} ${3:timing-function} ${4:delay} ${5:iteration-count} ${6:direction} ${7:fill-mode};"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"bsh",
+				"bxsh	box-shadow: ${1:inset }${2:hoff} ${3:voff} ${4:blur} ${5:color};"
+			],
+			[
+				"rba",
+				"rgba()"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"ver",
+				"vertical-align"
+			],
+			[
+				"tex",
+				"text-top"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"xam",
+				"xampp\\"
+			],
+			[
+				"col",
+				"colmrw	column-rule-width"
+			],
+			[
+				"arti",
+				"article"
+			],
+			[
+				"jqu",
+				"jqueryinstall	jqueryinstall"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"rea",
+				"repeat"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"sc",
+				"trf-sc	transform: scale(${1:x}, ${2:y});"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"im",
+				"img"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"ajax",
+				"ajax	Google AJAX Libraries: MooTools"
+			],
+			[
+				"fade",
+				"fadeOut	.fadeOut()"
+			],
+			[
+				"tra",
+				"transistion"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"doc",
+				"document"
+			],
+			[
+				"ce",
+				"cellspacing	Attr"
+			],
+			[
+				"leben",
+				"lebenlauf.html"
+			],
+			[
+				"trans",
+				"transistion"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"html",
+				"html	.html()"
+			],
+			[
+				"mit",
+				"mitbox"
+			],
+			[
+				"tog",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"sre",
+				"scretchLebenlauf"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"poi",
+				"position"
+			],
+			[
+				"butt",
+				"buttonLebenslauf"
+			],
+			[
+				"Back",
+				"background-color"
+			],
+			[
+				"css",
+				"css	.css() - single"
+			],
+			[
+				"de",
+				"delay	.delay()"
+			],
+			[
+				"hi",
+				"hidden"
+			],
+			[
+				"fad",
+				"fadeIn	.fadeIn()"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"p",
+				"padding-left"
+			],
+			[
+				"char",
+				"charset"
+			],
+			[
+				"PW",
+				"isPWsame"
+			],
+			[
+				"re",
+				"reg.php"
+			],
+			[
+				"fgets",
+				"fgets"
+			],
+			[
+				"schach",
+				"schachverlauf"
+			],
+			[
+				"fsi",
+				"font-size"
+			],
+			[
+				"dra",
+				"drag"
+			],
+			[
+				"bx",
+				"bxsh	box-shadow: ${1:inset }${2:hoff} ${3:voff} ${4:blur} ${5:color};"
+			],
+			[
+				"fig",
+				"figurHelper"
+			],
+			[
+				"zug",
+				"zugFarbe"
+			],
+			[
+				"Ein",
+				"Eingabe"
+			],
+			[
+				"chi",
+				"childAt"
+			],
+			[
+				"tar",
+				"target"
+			],
+			[
+				"inc",
+				"includeArray"
+			],
+			[
+				"get_inc",
+				"get_included_files"
+			],
+			[
+				"kon",
+				"konigFarbe"
+			],
+			[
+				"_kon",
+				"_konigS"
+			],
+			[
+				"_",
+				"_konigZ"
+			],
+			[
+				"M",
+				"MoglicherAusweichPunkt"
+			],
+			[
+				"_ko",
+				"_konigS"
+			],
+			[
+				"check",
+				"checkKonig"
+			],
+			[
+				"Sch",
+				"SchachMattPrufung"
+			],
+			[
+				"Z",
+				"Zahl2"
+			],
+			[
+				"Zah",
+				"Zahl1"
+			],
+			[
+				"_zu",
+				"_zugNum"
+			],
+			[
+				"n",
+				"nZ"
+			],
+			[
+				"Schach",
+				"SchachPrufung"
+			],
+			[
+				"_zug",
+				"_zugFarbe"
+			],
+			[
+				"_V",
+				"_vS"
+			],
+			[
+				"_v",
+				"_vZ"
+			],
+			[
+				"abs",
+				"abstand"
+			],
+			[
+				"r",
+				"richtungV"
+			],
+			[
+				"array_re",
+				"array_reverse"
+			],
+			[
+				"deb",
+				"debug_to_console"
+			],
+			[
+				"par",
+				"paras"
+			],
+			[
+				"ch",
+				"checkTurm"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"is",
+				"isZugKorrekt"
+			],
+			[
+				"z",
+				"zeile"
+			],
+			[
+				"bre",
+				"brett"
+			],
+			[
+				"pa",
+				"figurPfad"
+			],
+			[
+				"img",
+				"wayImg"
+			],
+			[
+				"wa",
+				"wayImg"
+			],
+			[
+				"fie",
+				"fieldValue"
+			],
+			[
+				"ra",
+				"rawFigur"
+			],
+			[
+				"figur",
+				"figurFarbe"
+			],
+			[
+				"isw",
+				"isWhite"
+			],
+			[
+				"schw",
+				"SCHWARZ"
+			],
+			[
+				"We",
+				"WEISS"
+			],
+			[
+				"nach",
+				"nachZ"
+			],
+			[
+				"debug",
+				"debug_to_console"
+			],
+			[
+				"ex",
+				"explodeHelp"
+			],
+			[
+				"http",
+				"httpdocs"
+			],
+			[
+				"at",
+				"attr	.attr() - single"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "TODO!:\n  Wir wollen machen DMS:\n\n  Was brauchen wir?:\n    ✔ Startseite mit @Login -> Link für Reg drunter @done (14-09-16 13:40)\n    ✔ Regestrierungseite als Gast @done (14-09-16 13:40)\n    ---------\n\n    ☐ Hauptseite mit Tabelle der Dokumenten?  http://www.appelsiini.net/projects/jeditable/default.html || http://www.datatables.net/\n    ☐ Filetree? \n    ---------\n    ☐ FileUpload\n    ☐ Umbennung nach Tags? \n      ☐ https://github.com/aehlke/tag-it/blob/master/README.markdown\n    ☐ Uploadbeschränken \n      ☐ (Größe (filesize($file)) ,\n      ☐ Datentyp is in Datenbank )\n\n    //Per Drag and Drop?\n    ☐ JQuery-Plugin\n    ☐ Anzeige von Text-Dokumenten in Overlay-Fenster\n    -----------\n    Just Ideas:\n      ☐ Notenübersicht mit Durchschnitt etc. Button um dem K.O LEK zu schicken oder so...\n      ☐ Kaffetimer mit dem schicken ButtonProgressSlider\n\nDatenbank:\n  Tabellen: @Benni\n    ☐ user -> id , username, vorname, nachname, email, password (md5)\n    ☐ dokumete -> id , name, filetype(FK), tags(FK), owner, rechte? später\n    ☐ filetypes -> id, name\n    ☐ tags -> id, name\n    ✔ Experimentelle integration @done (14-09-10 15:35)\n  \n  Was für Dokumente oder auch mehr: \n\n    ☐ doc\n    ☐ txt\n    ☐ pdf\n    ☐ html\n    ☐ css\n    ☐ php\n\nStruktur root:\n\n  ☐ htdocs\n    ☐ css\n    ☐ js\n    ☐ files\n      ☐ userXY --> Fileupload kommt hier rein\n        ☐ UnterordnerXY\n    ☐ index.php\n\n\nFileupload -> \"Abgrenzungsrechnung Muster.png\" -> Gucke ob bekannte der Dateiname bekannte Tags beinhaltet -> Schlage die in einem Input Text per Autocomplete oder anders vor\n\n",
+			"file": "übersicht.TODO",
+			"file_size": 1642,
+			"file_write_time": 130552419056040897,
+			"settings":
+			{
+				"buffer_size": 1561,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<html>\n<head>\n	<meta charset=\"UTF-8\">\n	<title>IBBE</title>\n</head>\n<body>\n	<-- Two Col sTyle -->\n	<header id=\"header\" class=\"\">\n		\n	</header><!-- /header -->\n	<div class=\"leftbar\">\n		<nav>\n			<ul>\n				<li><a href=\"#\"></a></li>\n				<li><a href=\"#\"></a></li>\n				<li><a href=\"#\"></a></li>\n			</ul>\n		</nav>\n\n	</div>\n	<div class=\"content\"></div>\n\n\n\n</body>\n</html>",
+			"file": "main.php",
+			"file_size": 0,
+			"file_write_time": 130553427972996907,
+			"settings":
+			{
+				"buffer_size": 361,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "register.php",
+			"settings":
+			{
+				"buffer_size": 3747,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "geheim.php",
+			"settings":
+			{
+				"buffer_size": 147,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/User/htmlweb.sublime-build",
+	"command_palette":
+	{
+		"height": 357.0,
+		"selected_items":
+		[
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"set s",
+				"Set Syntax: HTML"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Google AJAX Libraries: jQuery"
+			],
+			[
+				"PHP Code Sniffer: ",
+				"PHP Code Sniffer: Sniff this file"
+			],
+			[
+				"pc i",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Github: Plugin Settings"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"new ",
+				"Tasks: New document"
+			],
+			[
+				"new d",
+				"Tasks: New document"
+			],
+			[
+				"ref",
+				"QuickRef: Add/remove favourites"
+			],
+			[
+				"Reload",
+				"Emmet: Reload Extensions"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"task new",
+				"Tasks: New document"
+			],
+			[
+				"new",
+				"Tasks: New"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Gist",
+				"Gist: Open Gist"
+			],
+			[
+				"Git",
+				"Github: Repository"
+			],
+			[
+				"fet",
+				"Fetch: File"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pc",
+				"Package Control: Install Package"
+			],
+			[
+				"pp",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pci",
+				"Package Control: Install Package"
+			],
+			[
+				"Side",
+				"Snippet: input - date"
+			],
+			[
+				"Package Control: ser",
+				"Package Control: Discover Packages"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 625.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation') ",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs",
+		"/C/xampp/htdocs/DMS-CMS",
+		"/C/xampp/htdocs/Geissler-Com-Reboot",
+		"/C/xampp/htdocs/tunier"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/DMS-CMS/index.html",
+		"/C/xampp/htdocs/DMS-CMS/login.php",
+		"/C/xampp/htdocs/DMS-CMS/reg.php",
+		"/C/xampp/htdocs/DMS-CMS/index.php",
+		"/C/xampp/htdocs/DMS-CMS/test/index.html",
+		"/C/xampp/htdocs/tunier/addspieler.php",
+		"/C/xampp/htdocs/Geissler-Com-Reboot/index.php",
+		"/C/xampp/htdocs/tunier/index.php",
+		"/C/xampp/htdocs/Geissler-Com-Reboot/style.css",
+		"/C/Users/Geißler/Downloads/geisslercom-logohd.png",
+		"/C/xampp/htdocs/BewerbungOff/EmailBewerbungTemp/email_bewerbung.html",
+		"/C/xampp/htdocs/DMS-CMS/dmscms.sublime-project",
+		"/C/xampp/htdocs/DMS-CMS/übersicht.TODO",
+		"/C/xampp/htdocs/SchachbrettPHPJS/index.php",
+		"/C/xampp/htdocs/DMS-CMS/php/fileupload.php",
+		"/C/Users/Geißler/Downloads/blueimp-jQuery-File-Upload-be6b8bd/index.html",
+		"/C/Users/Geißler/Downloads/FileDrop-master/demo/index.html",
+		"/C/xampp/htdocs/DMS-CMS/php/upload.php",
+		"/C/Users/Geißler/netshare/AP_html_css/Götze_Matthias_AP_HTML_CSS/style.css",
+		"/C/Users/Geißler/netshare/AP_html_css/Götze_Matthias_AP_HTML_CSS/site/Wildparadies.html",
+		"/C/Sublime3/Data/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+		"/C/Sublime3/Data/Packages/User/ColorHighlighter.sublime-settings",
+		"/C/Users/Geißler/netshare/AP_html_css/Götze_Matthias_AP_HTML_CSS/index.html",
+		"/C/Sublime3/Data/Packages/Phpcs/phpcs.sublime-settings",
+		"/C/Sublime3/Data/Packages/QuickRef Command Lookup/README.md",
+		"/C/Sublime3/Data/Packages/User/Github Tools.sublime-settings",
+		"/C/xampp/htdocs/BewerbungOff/webvariants/css/component.css",
+		"/C/xampp/htdocs/BewerbungOff/webvariants/css/default.css",
+		"/C/Sublime3/Data/Packages/PHPUnit/PHPUnit.sublime-settings",
+		"/C/Sublime3/Data/Packages/Xdebug Client/Xdebug.sublime-settings",
+		"/C/Sublime3/Data/Packages/Colorcoder/colorcoder.sublime-settings",
+		"/C/xampp/htdocs/DMS-CMS2/index.php",
+		"/C/xampp/htdocs/BewerbungOff/webvariants/js/jquery.dataTables.min.js",
+		"/C/xampp/htdocs/BewerbungOff/webvariants/lebenlauf.html",
+		"/C/xampp/htdocs/BewerbungOff/webvariants/index.php",
+		"/C/Sublime3/Data/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Sublime3/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/C/xampp/htdocs/BewerbungOff/index.html",
+		"/C/xampp/htdocs/DMS-CMS/README.md",
+		"/C/xampp/htdocs/DMS-CMS/data/files/userXY/filetest.txt",
+		"/C/xampp/htdocs/DMS-CMS2/data/files/userXY/test.txt",
+		"/C/xampp/htdocs/DMS-CMS2/übersicht.TODO",
+		"/C/Sublime3/Data/Packages/PlainTasks/messages/Tutorial.todo",
+		"/C/xampp/htdocs/DMS-CMS2/reg.php",
+		"/C/Sublime3/Data/Packages/Package Control/Package Control.sublime-settings",
+		"/C/xampp/htdocs/.metadata/.plugins/com.aptana.portablegit.win32/lib/tcl8.5/opt0.4/pkgIndex.tcl",
+		"/C/xampp/htdocs/StadtLandFluss/server/node_modules/connect/examples/logger.js",
+		"/C/xampp/htdocs/.metadata/.plugins/com.aptana.portablegit.win32/doc/git/html/rev-list-options.txt",
+		"/C/xampp/htdocs/DMS-CMS/data/files",
+		"/C/xampp/htdocs/schach/index.php",
+		"/C/xampp/htdocs/ProjektIbbManager/reg.php",
+		"/C/xampp/htdocs/ProjektIbbManager/index.php",
+		"/C/xampp/htdocs/ProjektIbbManager/übersicht.TODO",
+		"/C/Sublime3/Data/Packages/Emmet/Emmet.sublime-settings",
+		"/C/xampp/htdocs/ProjektIbbManager/reg",
+		"/C/Sublime3/Data/Packages/User/Emmet.sublime-settings",
+		"/C/Sublime3/Data/Packages/QuickRef Command Lookup/QuickRef.sublime-settings",
+		"/C/xampp/htdocs/SchachbrettPHPJS/aufgaben.TODO",
+		"/C/xampp/htdocs/.metadata/.plugins/com.aptana.portablegit.win32/doc/git/html/technical/api-builtin.html",
+		"/C/xampp/htdocs/.metadata/.plugins/com.aptana.portablegit.win32/lib/tcl8.5/tzdata/America/Blanc-Sablon",
+		"/C/Sublime3/Data/Packages/Default/Preferences.sublime-settings",
+		"/C/Sublime3/Data/Packages/User/JSON.sublime-settings",
+		"/C/Sublime3/Data/Packages/User/Preferences.sublime-settings",
+		"/C/xampp/htdocs/restricted/index.html",
+		"/C/Sublime3/Data/Packages/User/LiveReload.sublime-settings",
+		"/C/Sublime3/Data/Packages/LiveReload/LiveReload.sublime-settings",
+		"/C/xampp/htdocs/SchachbrettPHPJS/spiel.js",
+		"/C/Sublime3/Data/Packages/User/phpbuild.sublime-build",
+		"/C/Sublime3/Data/Packages/User/htmlweb.sublime-build",
+		"/C/xampp/htdocs/PageTransitions/index.html",
+		"/C/xampp/htdocs/SchachbrettPHPJS/rules/rules.php",
+		"/C/xampp/htdocs/SchachbrettPHPJS/schachverlauf.txt",
+		"/C/xampp/htdocs/uebungDaeihandling/index.php",
+		"/C/xampp/htdocs/SchachbrettPHPJS/rules/zuglogik.php",
+		"/C/xampp/htdocs/SchachbrettPHPJS/rules/dame.php",
+		"/C/xampp/htdocs/SchachbrettPHPJS/rules/turm.php",
+		"/C/xampp/htdocs/SchachbrettPHPJS/rules/schach.php",
+		"/C/xampp/htdocs/SchachbrettPHPJS/rules/konig.php",
+		"/C/xampp/htdocs/SchachbrettPHPJS/rules/laufer.php",
+		"/C/xampp/htdocs/SchachbrettPHPJS/rules/pferd.php",
+		"/C/xampp/htdocs/SchachbrettPHPJS/rules/bauer.php",
+		"/C/xampp/htdocs/SchachbrettPHPJS/style.css",
+		"/C/xampp/htdocs/SchachbrettPHPJS/test.php",
+		"/C/xampp/htdocs/SchachbrettPHPJS/.gitignore",
+		"/C/xampp/htdocs/SchachbrettPHPJS/.gitattributes",
+		"/C/xampp/htdocs/SFL/server/node_modules/websocket/install.js",
+		"/C/xampp/htdocs/.metadata/.plugins/com.aptana.portablegit.win32/lib/tcl8.5/tzdata/US/Indiana-Starke",
+		"/C/xampp/htdocs/index.php",
+		"/C/xampp/htdocs/SchachbrettPHPJS/jquery",
+		"/C/xampp/htdocs/SchachbrettPHPJS/sftp-config.json",
+		"/C/xampp/htdocs/Schachbrett/helpers.js",
+		"/C/Sublime3/Data/Packages/User/Gist.sublime-settings",
+		"/C/Sublime3/Data/Packages/Gist/Gist.sublime-settings",
+		"/C/Sublime3/Data/Packages/Gist/Default (Windows).sublime-keymap",
+		"/C/Sublime3/Data/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Sublime3/Data/Packages/User/Fetch.sublime-settings",
+		"/C/xampp/htdocs/index2.php",
+		"/C/xampp/htdocs/schach/spiel.js",
+		"/C/xampp/htdocs/schach/rules/laufer.php",
+		"/C/xampp/htdocs/schach/rules/turm.php",
+		"/C/xampp/htdocs/schach/rules/bauer.php",
+		"/C/xampp/htdocs/PageTransitions/README.md",
+		"/C/xampp/htdocs/.metadata/.plugins/com.aptana.portablegit.win32/ReleaseNotes.rtf",
+		"/C/xampp/htdocs/.metadata/.plugins/com.aptana.portablegit.win32/lib/perl5/5.8.8/msys/auto/POSIX/rename.al",
+		"/C/xampp/htdocs/.metadata/.plugins/com.aptana.portablegit.win32/share/git-gui/lib/branch_rename.tcl",
+		"/C/xampp/htdocs/SFL/server/node_modules/connect/node_modules/multiparty/node_modules/readable-stream/node_modules/core-util-is/util.js",
+		"/C/xampp/htdocs/.metadata/.plugins/com.aptana.portablegit.win32/lib/tcl8.5/tzdata/America/Grand_Turk",
+		"/C/xampp/htdocs/forbidden/readme.auth_remote.txt",
+		"/C/xampp/htdocs/.metadata/.plugins/com.aptana.portablegit.win32/lib/tcl8.5/encoding/macCentEuro.enc",
+		"/C/xampp/htdocs/SFL/server/node_modules/connect/node_modules/multiparty/test/fixture/js/no-filename.js",
+		"/C/xampp/htdocs/Bewerbung/lebenslauf.html",
+		"/C/xampp/htdocs/.metadata/.plugins/com.aptana.portablegit.win32/lib/tcl8.5/tzdata/America/Argentina/La_Rioja",
+		"/C/xampp/htdocs/.metadata/.plugins/com.aptana.portablegit.win32/lib/perl5/5.8.8/msys/auto/Storable/lock_retrieve.al",
+		"/C/xampp/htdocs/.metadata/.plugins/com.aptana.portablegit.win32/lib/tcl8.5/tzdata/America/Los_Angeles",
+		"/C/xampp/htdocs/.metadata/.plugins/com.aptana.portablegit.win32/lib/tcl8.5/tzdata/America/Edmonton",
+		"/C/xampp/htdocs/.metadata/.plugins/com.aptana.portablegit.win32/lib/tcl8.5/tzdata/Australia/Eucla",
+		"/C/Sublime3/Data/Packages/User/jqueryinstall.sublime-snippet",
+		"/C/xampp/htdocs/schach/rules/pferd.php",
+		"/C/xampp/htdocs/schach/schleifenschach2.php",
+		"/C/xampp/htdocs/style.css",
+		"/G/Documents/htdocs/schach-obj/index.php",
+		"/C/xampp/htdocs/index.html",
+		"/C/xampp/htdocs/Unbenannt-1",
+		"/C/xampp/htdocs/xampp.php",
+		"/G/PortableApps/Sublime3/Data/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/G/PortableApps/Sublime3/Data/Packages/User/Preferences.sublime-settings",
+		"/C/xampp/htdocs/Cardgame/index.php",
+		"/C/xampp/htdocs/schach/schachverlauf.txt"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$spieler",
+			"spieler",
+			"skewX",
+			"rote",
+			"translateZ",
+			"10",
+			"2",
+			"js/",
+			"\"search",
+			"\"Show",
+			"\"Search",
+			"previous",
+			"thead",
+			"comment",
+			"20px",
+			"OpeningSequence",
+			"os-phrases",
+			"_GET",
+			"\">",
+			">",
+			"i",
+			")",
+			"text",
+			"border-box",
+			"$brett[$j][$i]",
+			");\n",
+			"MoglicherAusweichPunkt",
+			"checkD1",
+			"$z",
+			"z",
+			"Z",
+			"z",
+			"i",
+			"konigS",
+			"zugNum",
+			"zaehler",
+			"isZugKorrekt",
+			"figurFarbe",
+			"Leer",
+			"leer",
+			"Leer",
+			"leer",
+			"isLeer",
+			"zeileInt",
+			"spalteChar",
+			"zugFarbe",
+			"Zugfarbe",
+			"zugFarbe",
+			"coords",
+			"Spieler",
+			".png",
+			"text",
+			"blub",
+			"erlaubter_zug",
+			"type",
+			"schleifenschach2",
+			"laeufer",
+			"laeuferw",
+			"pferdw",
+			"bauerw",
+			"teiler",
+			"richtungPositiv",
+			"$ergebnis = 1;",
+			"private"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"$boo = false",
+			"var"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "übersicht.TODO",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1561,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								351,
+								351
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PlainTasks/PlainTasks.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "main.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 361,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								344,
+								344
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Superman (SL).tmTheme",
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "register.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3747,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								702,
+								702
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Superman (SL).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "geheim.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								147,
+								147
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Superman (SL).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 146.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 28.0
+	},
+	"project": "dmscms.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 307.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
