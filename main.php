@@ -1,3 +1,7 @@
+<?php
+session_start();
+$username = $_SESSION['username'];
+?>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -15,7 +19,10 @@
 	</style>
 </head>
 <body>
-	<header class="header"></header>
+	<header class="header">
+		<h2>Hallo <?php echo $username; ?></h2>
+
+	</header>
 	<div class="leftbar">
 		<ul>
 			<li><a href="#">Home</a></li>
@@ -31,7 +38,15 @@
 			<input type="file" name="file" id="file">
 			<button type="submit" name="submit" value="submit"> Upload</button>
 		</form>
+		<?php
+		mysql_connect(...)
+		array <- SELECT documentes WHERE owner LIKE $username
 
+		foreach ($array as $document) {
+			<li>Dokumentlink</li>
+		}
+		
+		?>
 	</div>
 </body>
 </html>

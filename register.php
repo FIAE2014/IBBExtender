@@ -88,7 +88,7 @@ mysql_close();
                         </div>
 
                         <div class="bottom">                         
-                            <a href="<?php echo $href; ?>" rel="forgot_password" class="linkform">
+                            <a href="<?php echo $href; ?>" rel="forgot_password" id="formsend" class="linkform">
                              <?php echo "$button"; ?>
                             </a>
                             <div class="clear"></div>
@@ -97,5 +97,3 @@ mysql_close();
                     </div>
                     </div>
                     </div>
-
-
