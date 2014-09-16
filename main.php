@@ -8,6 +8,10 @@ $id = $_SESSION['id'];
 	<meta charset="UTF-8">
 	<title>IBBExtender</title>
 	<style type="text/css" media="screen">
+	/**
+		TODO:	-Ausgliederngit
+	**/
+	
 	.header{
 		//headbar?
 	}
@@ -42,28 +46,43 @@ $id = $_SESSION['id'];
 			<input type="file" name="file" id="file">
 			<button type="submit" name="submit" value="submit"> Upload</button>
 		</form>
+		
 		<?php 
-		/*TODO FEHLER */
-		mysql_connect("localhost","admin","admin");
-		mysql_select_db("documents");
+			
+			/**
+			*
+			* MYSQL Verbindung / Abfrage nach Files des Owners
+			*
+			**/
+			
+			
+			mysql_connect("localhost","admin","admin");
+			mysql_select_db("documents");
 
-		$querryfiles = "SELECT filename FROM documents WHERE owner LIKE $id";
+			$querryfiles = "SELECT filename FROM documents WHERE owner LIKE $id";
+			$arrayfiles = mysql_query($querryfiles);
 
-		echo "<ul>";		 
-	
-		foreach ($document as $querryfiles) {
-			echo "<li>".$document['filename']."</li>";
-		}
+			//Zeichnet eine ul mit n-li's mit dem filename
+			/**
+				TODO:
+				- a-Links parken
+						
+			**/
+			
+			echo "<ul>";		 
+		
+			foreach ($document as $arrayfiles) {
+				echo "<li>".$document['filename']."</li>";
+			}
 
-		echo "</ul>";
-		mysql_close();
+			echo "</ul>";
+			mysql_close();
 		?>
+
 		<script type="text/javascript">
+
 		/* Schickt die Form per Ajax ans PHP */
-		$("#uploadform").ajaxForm(
-			{	url: 'php/upload.php' ,
-				type:'post'
-			});
+		$("#uploadform").ajaxForm({	url: 'php/upload.php' ,type:'post' });
 
 		</script>
 	</div>
