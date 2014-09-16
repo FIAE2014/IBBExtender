@@ -1,6 +1,7 @@
 <?php
 session_start();
 $username = $_SESSION['username'];
+$id = $_SESSION['id'];
 ?>
 <html>
 <head>
@@ -17,6 +18,9 @@ $username = $_SESSION['username'];
 		//Main
 	}	
 	</style>
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="js/jquery.form.js"></script>
 </head>
 <body>
 	<header class="header">
@@ -26,27 +30,43 @@ $username = $_SESSION['username'];
 	<div class="leftbar">
 		<ul>
 			<li><a href="#">Home</a></li>
-			<li><a href="#">Dokumente</a></li>
+			<li><a href="#" onclick="postData()">Dokumente</a></li>
 			<li><a href="#">Chat</a></li>
 
 		</ul>
 
 	</div>
 	<div class="content">
-		<form action="php/upload.php" method="POST" enctype="multipart/form-data">
+		<form id="uploadform" action="php/upload.php" method="POST" enctype="multipart/form-data">
 			<label for="file">Bitte Datei auswählen:</label>
 			<input type="file" name="file" id="file">
 			<button type="submit" name="submit" value="submit"> Upload</button>
 		</form>
-		<?php
-		mysql_connect(...)
-		array <- SELECT documentes WHERE owner LIKE $username
+		<?php 
+		/*TODO FEHLER */
+		mysql_connect("localhost","admin","admin");
+		mysql_select_db("documents");
 
-		foreach ($array as $document) {
-			<li>Dokumentlink</li>
+		$querryfiles = "SELECT filename FROM documents WHERE owner LIKE $id";
+
+		echo "<ul>";		 
+	
+		foreach ($document as $querryfiles) {
+			echo "<li>".$document['filename']."</li>";
 		}
-		
+
+		echo "</ul>";
+		mysql_close();
 		?>
+		<script type="text/javascript">
+		/* Schickt die Form per Ajax ans PHP */
+		$("#uploadform").ajaxForm(
+			{	url: 'php/upload.php' ,
+				type:'post'
+			});
+
+		</script>
 	</div>
+	
 </body>
 </html>
