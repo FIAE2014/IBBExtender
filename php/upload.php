@@ -39,8 +39,13 @@ if ($_FILES["file"]["error"] > 0) {
    - Dynamischer machen
  
  **/
- 
-  move_uploaded_file($_FILES['file']['tmp_name'], "C:\\xampp\\htdocs\\IBBExtender\\data\\".$username."\\".$_FILES['file']['name']);
+ 	if (!file_exists("C:\\xampp\\htdocs\\IBBExtender\\data\\".$username."\\".$_FILES['file']['name'])) {
+  		move_uploaded_file($_FILES['file']['tmp_name'], "C:\\xampp\\htdocs\\IBBExtender\\data\\".$username."\\".$_FILES['file']['name']);
+  		chmod("C:\\xampp\\htdocs\\IBBExtender\\data\\".$username."\\".$_FILES['file']['name']   ,0777);
+ 	}else{
+ 		unlink($_FILES['file']['tmp_name']);
+ 		echo "File wurde nicht verschoben weil es bereits existiert";
+ 		 	}
 
 /*==========  MYSQL INSERT  ==========*/
 

@@ -1,5 +1,5 @@
 TODO!:
-  Wir wollen machen DMS:
+  Wir wollen machen Social? DMS:
 
   Was brauchen wir?:
     ✔ Startseite mit @Login -> Link für Reg drunter @done (14-09-16 21:12)
@@ -26,10 +26,10 @@ TODO!:
 
 Datenbank:
   Tabellen: @Benni
-    ☐ user -> id , username, vorname, nachname, email, password (md5)
-    ☐ dokumete -> id , name, filetype(FK), tags(FK), owner, rechte? später
-    ☐ filetypes -> id, name
-    ☐ tags -> id, name
+    ✔ user -> id , username, vorname, nachname, email, password (md5) @done (14-09-17 15:49)
+    ✔ dokumete -> id , name, filetype(FK), tags(FK), owner, rechte? später @done (14-09-17 15:49)
+    ✔ filetypes -> id, name @done (14-09-17 15:49)
+    ✔ tags -> id, name @done (14-09-17 15:49)
     ✔ Experimentelle integration @done (14-09-10 15:35)
   
   Was für Dokumente oder auch mehr: 

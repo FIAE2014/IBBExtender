@@ -22,9 +22,13 @@ $id = $_SESSION['id'];
 		//Main
 	}	
 	</style>
+	<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.2/css/jquery.dataTables.css">
+
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script src="js/jquery.form.js"></script>
+	<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.2/js/jquery.dataTables.js"></script>
+
 </head>
 <body>
 	<header class="header">
@@ -54,36 +58,57 @@ $id = $_SESSION['id'];
 			* MYSQL Verbindung / Abfrage nach Files des Owners
 			*
 			**/
+			chmod("data/", 0777);
+			chmod("data/gcom", 0777);
 			
-			
-			mysql_connect("localhost","admin","admin");
-			mysql_select_db("documents");
+			mysql_connect("localhost","admin","admin") or die("Datenbank-Verbindung fehlerhaft");
+			mysql_select_db("projekt_bg_ds") or die("Tabbele nicht erreicht");
 
-			$querryfiles = "SELECT filename FROM documents WHERE owner LIKE $id";
-			$arrayfiles = mysql_query($querryfiles);
-
-			//Zeichnet eine ul mit n-li's mit dem filename
-			/**
-				TODO:
-				- a-Links parken
-						
-			**/
-			
-			echo "<ul>";		 
+			$docpath = "C:\\xampp\htdocs\\".$username."\\";
 		
-			foreach ($document as $arrayfiles) {
-				echo "<li>".$document['filename']."</li>";
-			}
+			$querryfiles = "SELECT filename,filetyp,size,tag FROM documents WHERE owner LIKE $id ";
+			$result = mysql_query($querryfiles);
+			echo mysql_error();
+			//Zeichnet eine ul mit n-li's mit dem filename
+			echo "	<table id='doc_table' class='display'>
+					<caption>Dateien:</caption>
+					<thead>
+						<tr>
+							<th>Dateiname</th>
+							<th>Type</th>
+							<th>Größe</th>
+							<th>Tags</th>
+						</tr>
+					</thead>
+					<tbody>";
+				while($row = mysql_fetch_array($result)) {
+					$file = $row['filename'];
+					echo "	<tr>
+							<td><a href='/data/$username/$file'>".$row['filename']."</td>
+							<td>".$row['filetyp']."</td>
+							<td>".($row['size']/100000)." MB</td>
+							<td>".$row['tag']."</td>
+							</tr>";
+					}
+				"</tbody>
+			</table>>";		 
 
-			echo "</ul>";
+			
+
 			mysql_close();
 		?>
 
 		<script type="text/javascript">
 
 		/* Schickt die Form per Ajax ans PHP */
-		$("#uploadform").ajaxForm({	url: 'php/upload.php' ,type:'post' });
+		$("#uploadform").ajaxForm({	url: 'php/upload.php' ,type:'post' },function(){
+			$("#uploadform").resetForm();
+			$(document).load("main.php");
+		});
 
+		$(document).ready(function() {
+			$("#doc_table").DataTable();
+		});
 		</script>
 	</div>
 	

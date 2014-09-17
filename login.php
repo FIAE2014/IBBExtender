@@ -1,7 +1,6 @@
  <?php
 session_start();
 ?>
-
 <?php
 $verbindung = mysql_connect("localhost", "admin" , "admin")
 or die("Verbindung zur Datenbank konnte nicht hergestellt werden");
@@ -13,7 +12,6 @@ $password = md5($_POST["password"]);
 $abfrage = "SELECT id, username , password FROM login WHERE username LIKE '$username' LIMIT 1";
 $ergebnis = mysql_query($abfrage) or die("Query falsch");
 $row = mysql_fetch_array($ergebnis);
-var_dump($row);
 if($row['password'] == $password)
     {
     $_SESSION["username"] = $username;
