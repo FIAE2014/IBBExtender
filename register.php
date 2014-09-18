@@ -34,9 +34,9 @@ if (!empty($_POST["username"]) && !empty($_POST["name"]) && !empty($_POST["first
             {
             $output_h1 = "Herzlichen Glückwunsch";    
             $output =  "Benutzer <b>$username</b> wurde erstellt.";
-
+            //Erstellt das Userverzeichnis
              if (!file_exists("C:\\xampp\\htdocs\\IBBExtender\\data\\".$username."\\")) {
-    
+            
              mkdir(C:\\xampp\\htdocs\\IBBExtender\\data\\".$username."\", 0777, true);
             }
 
