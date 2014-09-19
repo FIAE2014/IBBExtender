@@ -39,7 +39,7 @@ $id = $_SESSION['id'];
 		<ul>
 			<li><a href="#">Home</a></li>
 			<li><a href="#" onclick="postData()">Dokumente</a></li>
-			<li><a href="#">Chat</a></li>
+			<li><a href="./php/wipe.php">Wipe DB (debug)</a></li>
 
 		</ul>
 
@@ -82,10 +82,11 @@ $id = $_SESSION['id'];
 							<th>Type</th>
 							<th>Größe</th>
 							<th>Tags</th>
+							
 						</tr>
 					</thead>
 					<tbody>";
-				while($row = mysql_fetch_array($result)) {
+			/*	while($row = mysql_fetch_array($result)) {
 					$file = $row['filename'];
 					echo "	<tr>
 							<td><a href='/data/$username/$file'>".$row['filename']."</td>
@@ -94,8 +95,8 @@ $id = $_SESSION['id'];
 							<td>".$row['tag']."</td>
 							</tr>";
 					}
-				"</tbody>
-			</table>>";		 
+				*/ echo "</tbody>
+			</table>";		 
 
 			
 
@@ -109,18 +110,25 @@ $id = $_SESSION['id'];
 			function upload(){
 				var filearray = _("file").files;
 				
-				for(file in filearray){
-					var formdata = new FormData();
-					formdata.append('file',filearray[file]);
-					console.log(filearray[file]);
-					var ajax = new XMLHttpRequest();
-					ajax.upload.addEventListener("progress", progressHandler, false);
-					ajax.addEventListener("load", completeHandler, false);
-					ajax.addEventListener("error", errorHandler, false);
-					ajax.addEventListener("abort",abortHandler, false);
-					ajax.open("POST","php/upload.php");
-					ajax.send(formdata);
-				}
+					for (var i = filearray.length - 1; i >= 0; i--) {
+						file = filearray[i]
+
+						var formdata = new FormData();
+						formdata.append('file',file);
+
+						var ajax = new XMLHttpRequest();
+						ajax.upload.addEventListener("progress", progressHandler, false);
+						ajax.addEventListener("load", completeHandler, false);
+						ajax.addEventListener("error", errorHandler, false);
+						ajax.addEventListener("abort",abortHandler, false);
+						ajax.open("POST","php/upload.php");
+						ajax.send(formdata);
+					}
+
+					
+					
+					
+				
 				
 			}
 
@@ -134,6 +142,9 @@ $id = $_SESSION['id'];
 				_("status").innerHTML = event.target.responseText;
 				_("file").innerHTML = "";
 				_("progress").value = 0;
+			
+
+				
 			}
 
 			function abortHandler(event){
@@ -147,7 +158,12 @@ $id = $_SESSION['id'];
 	 
 
 		$(document).ready(function() {
-			$("#doc_table").DataTable();
+			table = $("#doc_table").DataTable({
+				 	"processing": true,
+			        "serverSide": true,
+			        "ajax": "php/fetch_db_data.php"
+
+			});
 		});
 		</script>
 	</div>
