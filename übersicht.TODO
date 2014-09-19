@@ -1,19 +1,19 @@
 TODO!:
-  Wir wollen machen DMS:
+  Wir wollen machen Social? DMS:
 
   Was brauchen wir?:
-    ☐ Startseite mit @Login -> Link für Reg drunter
-    ☐ Regestrierungseite als Gast
+    ✔ Startseite mit @Login -> Link für Reg drunter @done (14-09-16 21:12)
+    ✔ Regestrierungseite als Gast @done (14-09-16 21:12)
     ---------
 
     ☐ Hauptseite mit Tabelle der Dokumenten?  http://www.appelsiini.net/projects/jeditable/default.html || http://www.datatables.net/
     ☐ Filetree? 
     ---------
-    ☐ FileUpload
+    ✔ FileUpload @done (14-09-16 21:12)
     ☐ Umbennung nach Tags? 
       ☐ https://github.com/aehlke/tag-it/blob/master/README.markdown
-    ☐ Uploadbeschränken 
-      ☐ (Größe (filesize($file)) ,
+    ✔ Uploadbeschränken  @done (14-09-16 21:12)
+      ✔ (Größe (filesize($file)) , @done (14-09-16 21:12)
       ☐ Datentyp is in Datenbank )
 
     //Per Drag and Drop?
@@ -26,10 +26,10 @@ TODO!:
 
 Datenbank:
   Tabellen: @Benni
-    ☐ user -> id , username, vorname, nachname, email, password (md5)
-    ☐ dokumete -> id , name, filetype(FK), tags(FK), owner, rechte? später
-    ☐ filetypes -> id, name
-    ☐ tags -> id, name
+    ✔ user -> id , username, vorname, nachname, email, password (md5) @done (14-09-17 15:49)
+    ✔ dokumete -> id , name, filetype(FK), tags(FK), owner, rechte? später @done (14-09-17 15:49)
+    ✔ filetypes -> id, name @done (14-09-17 15:49)
+    ✔ tags -> id, name @done (14-09-17 15:49)
     ✔ Experimentelle integration @done (14-09-10 15:35)
   
   Was für Dokumente oder auch mehr: 
@@ -43,13 +43,13 @@ Datenbank:
 
 Struktur root:
 
-  ☐ htdocs
-    ☐ css
-    ☐ js
-    ☐ files
-      ☐ userXY --> Fileupload kommt hier rein
-        ☐ UnterordnerXY
-    ☐ index.php
+  ✔ htdocs @done (14-09-16 21:13)
+    ✔ css @done (14-09-16 21:13)
+    ✔ js @done (14-09-16 21:13)
+    ✔ data @done (14-09-16 21:13)
+      ✔ userXY --> Fileupload kommt hier rein @done (14-09-16 21:13)
+        ✔ UnterordnerXY @done (14-09-16 21:13)
+    ✔ index.php @done (14-09-16 21:13)
 
 
 Fileupload -> "Abgrenzungsrechnung Muster.png" -> Gucke ob bekannte der Dateiname bekannte Tags beinhaltet -> Schlage die in einem Input Text per Autocomplete oder anders vor

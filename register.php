@@ -34,6 +34,13 @@ if (!empty($_POST["username"]) && !empty($_POST["name"]) && !empty($_POST["first
             {
             $output_h1 = "Herzlichen Glückwunsch";    
             $output =  "Benutzer <b>$username</b> wurde erstellt.";
+            //Erstellt das Userverzeichnis
+             if (!file_exists("C:\\xampp\\htdocs\\IBBExtender\\data\\".$username."\\")) {
+            
+             mkdir("C:\\xampp\\htdocs\\IBBExtender\\data\\".$username."\\", 0744, true);
+            }
+
+
             $redirect = true;
             $button = "Weiter...";
             }
@@ -88,7 +95,7 @@ mysql_close();
                         </div>
 
                         <div class="bottom">                         
-                            <a href="<?php echo $href; ?>" rel="forgot_password" class="linkform">
+                            <a href="<?php echo $href; ?>" rel="forgot_password" id="formsend" class="linkform">
                              <?php echo "$button"; ?>
                             </a>
                             <div class="clear"></div>
@@ -97,5 +104,3 @@ mysql_close();
                     </div>
                     </div>
                     </div>
-
-

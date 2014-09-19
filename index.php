@@ -13,7 +13,7 @@
 		<div class="wrapper">
 			<div class="content">
 				<div id="form_wrapper" class="form_wrapper">
-					<form class="register active" action="register.php" method="POST">
+					<form class="register" action="register.php" method="POST">
 						<h3>Registrierung</h3>
 						<div class="column">
 							<div>
@@ -55,16 +55,16 @@
 							<div class="clear"></div>
 						</div>
 					</form>
-					<form class="login">
+					<form class="login active" method="POST" action="login.php">
 						<h3>Login</h3>
 						<div>
 							<label>Username:</label>
-							<input type="text" />
+							<input type="text" name="username" />
 							<span class="error">Fehler!</span>
 						</div>
 						<div>
 							<label>Passwort: <a href="index.php" rel="forgot_password" class="forgot linkform">Passwort vergessen?</a></label>
-							<input type="password" />
+							<input type="password" name="password" />
 							<span class="error">Fehler!</span>
 						</div>
 						<div class="bottom">
