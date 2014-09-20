@@ -39,16 +39,22 @@ $id = $_SESSION['id'];
 		<ul>
 			<li><a href="#">Home</a></li>
 			<li><a href="#" onclick="postData()">Dokumente</a></li>
-			<li><a href="#">Chat</a></li>
+			<li><a href="./php/wipe.php">Wipe DB (debug)</a></li>
 
 		</ul>
 
 	</div>
 	<div class="content">
 		<form id="uploadform" action="php/upload.php" method="POST" enctype="multipart/form-data">
-			<label for="file">Bitte Datei auswählen:</label>
-			<input type="file" name="file" id="file">
-			<button type="submit" name="submit" value="submit"> Upload</button>
+			<fieldset>
+				<legend>Upload</legend>
+				<label for="file">Bitte Datei auswählen:</label>
+				<input type="file" name="file[]" id="file" require multiple>
+				<input type="button" name="submit" value="submit" onclick="upload()"> Upload</button>
+				<progress id="progress" value="0" max="100" style="width:300px;"></progress>
+				<h3 id="status"></h3>
+				<p id="loaded_n_total"></p>
+			</fieldset>
 		</form>
 		
 		<?php 
@@ -58,7 +64,10 @@ $id = $_SESSION['id'];
 			* MYSQL Verbindung / Abfrage nach Files des Owners
 			*
 			**/
+<<<<<<< HEAD
 			
+=======
+>>>>>>> origin/uploadbranch
 			
 			mysql_connect("localhost","admin","admin") or die("Datenbank-Verbindung fehlerhaft");
 			mysql_select_db("projekt_bg_ds") or die("Tabbele nicht erreicht");
@@ -77,10 +86,11 @@ $id = $_SESSION['id'];
 							<th>Type</th>
 							<th>Größe</th>
 							<th>Tags</th>
+							
 						</tr>
 					</thead>
 					<tbody>";
-				while($row = mysql_fetch_array($result)) {
+			/*	while($row = mysql_fetch_array($result)) {
 					$file = $row['filename'];
 					echo "	<tr>
 							<td><a href='/data/$username/$file'>".$row['filename']."</td>
@@ -89,8 +99,8 @@ $id = $_SESSION['id'];
 							<td>".$row['tag']."</td>
 							</tr>";
 					}
-				"</tbody>
-			</table>>";		 
+				*/ echo "</tbody>
+			</table>";		 
 
 			
 
@@ -98,15 +108,66 @@ $id = $_SESSION['id'];
 		?>
 
 		<script type="text/javascript">
+			function _(el){
+				return document.getElementById(el);
+			}
+			function upload(){
+				var filearray = _("file").files;
+				
+					for (var i = filearray.length - 1; i >= 0; i--) {
+						file = filearray[i]
 
-		/* Schickt die Form per Ajax ans PHP */
-		$("#uploadform").ajaxForm({	url: 'php/upload.php' ,type:'post' },function(){
-			$("#uploadform").resetForm();
-			$(document).load("main.php");
-		});
+						var formdata = new FormData();
+						formdata.append('file',file);
+
+						var ajax = new XMLHttpRequest();
+						ajax.upload.addEventListener("progress", progressHandler, false);
+						ajax.addEventListener("load", completeHandler, false);
+						ajax.addEventListener("error", errorHandler, false);
+						ajax.addEventListener("abort",abortHandler, false);
+						ajax.open("POST","php/upload.php");
+						ajax.send(formdata);
+					}
+
+					
+					
+					
+				
+				
+			}
+
+			function progressHandler(event){
+				_("status").innerHTML = "Uploaded "+event.loaded+" bytes of ";
+				var percent = (event.loaded / event.total) * 100;
+				_("progress").value = Math.round(percent);
+			}	
+
+			function completeHandler(event){
+				_("status").innerHTML = event.target.responseText;
+				_("file").innerHTML = "";
+				_("progress").value = 0;
+			
+
+				
+			}
+
+			function abortHandler(event){
+				_("status").innerHTML = "Uploaded abgebrochen";
+
+			}
+			function errorHandler(event){
+				_("status").innerHTML = "Uploaded abgebrochen";
+
+			}
+	 
 
 		$(document).ready(function() {
-			$("#doc_table").DataTable();
+			table = $("#doc_table").DataTable({
+				 	"processing": true,
+			        "serverSide": true,
+			        "ajax": "php/fetch_db_data.php"
+
+			});
 		});
 		</script>
 	</div>
