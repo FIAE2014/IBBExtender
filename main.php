@@ -58,8 +58,7 @@ $id = $_SESSION['id'];
 			* MYSQL Verbindung / Abfrage nach Files des Owners
 			*
 			**/
-			chmod("data/", 0777);
-			chmod("data/gcom", 0777);
+			
 			
 			mysql_connect("localhost","admin","admin") or die("Datenbank-Verbindung fehlerhaft");
 			mysql_select_db("projekt_bg_ds") or die("Tabbele nicht erreicht");

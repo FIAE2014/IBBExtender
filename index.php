@@ -18,7 +18,7 @@
 						<div class="column">
 							<div>
 								<label>Vorname:</label>
-								<input type="text" name="firstname" require="true"/>
+								<input type="textho" name="firstname" require="true"/>
 								<span class="error">Fehler!</span>
 							</div>
 							<div>
